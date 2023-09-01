@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body {
+  background-color: black;
+  color: cyan;
+  font-family: monospace;
+}
+
+.text {
+  font-size: 2vw;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* unvisited link */
+a:link {
+  color: cyan;
+}
+
+/* visited link */
+a:visited {
+  color: cyan;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+</style>
+</head>
+
+<body>
+<div class="text">
+<marquee scrollamount=10 behavior=alternate>
+. : <a href="./main.suwf">to main</a> : .
+</marquee>
+reach us by email <a href="mailto:subsequent@notbart.33mail.com?subject=Regarding business">here</a><br>
+other means of contact may be added here soon!
+</div>
+</body>
+</html>
+<!-- eof -->

@@ -1,0 +1,6 @@
+<!doctype html>
+redirecting
+<script>
+	location.href = "https://infinityfree.com/"
+</script>
+<!-- eof -->

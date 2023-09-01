@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body {
+  background-color: black;
+  color: cyan;
+  font-size: 6vw;
+  font-family: monospace;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* unvisited link */
+a:link {
+  color: cyan;
+}
+
+/* visited link */
+a:visited {
+  color: cyan;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+</style>
+</head>
+
+<body>
+<div class="vertical-center">
+<marquee scrollamount=40 behavior=slide>
+&nbsp;&nbsp;. : subsequent:software : .<br>
+</marquee>
+<marquee scrollamount=38 behavior=slide>
+<a href="./files">browse the server</a>
+<!--<a href="./work.suwf">our work</a>--><br>
+</marquee>
+<marquee scrollamount=36 behavior=slide>
+<!--<a href="./contact.suwf">contact</a>--><br>
+</marquee>
+<marquee scrollamount=34 behavior=slide>
+<!--<a href="./about.suwf">about</a>--><br>
+</marquee>
+<marquee scrollamount=32 behavior=slide>
+<a href="./misc.suwf">misc</a><br>
+</marquee>
+</div>
+</body>
+</html>
+<!-- eof -->
