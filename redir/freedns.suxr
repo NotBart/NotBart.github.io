@@ -1,6 +1,0 @@
-<!doctype html>
-redirecting
-<script>
-	location.href = "https://freedns.afraid.org/"
-</script>
-<!-- eof -->
